@@ -69,6 +69,7 @@ extern double erf __P((double));
 extern double erfc __P((double));
 extern double gamma __P((double));
 extern double hypot __P((double, double));
+#undef isnan
 extern int isnan __P((double));
 extern int finite __P((double));
 extern double j0 __P((double));

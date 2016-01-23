@@ -166,6 +166,12 @@ compile(char *file, char **defs, int ndef)
 	int i, c, fd[2];
 	static int first = 1;
 
+	if(strlen(file) >= 400){
+		print("input file too long.\n");
+		errorexit();
+	}
+
+		
 	strcpy(ofile, file);
 	p = utfrrune(ofile, pathchar());
 	if(p) {
