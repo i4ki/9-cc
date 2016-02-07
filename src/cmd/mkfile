@@ -31,9 +31,9 @@ ALWAYS=\
 #
 NOTPLAN9=\
 	iyacc\
-	6a\
-	6c\
-	6l\
+#	6a\
+#	6c\
+#	6l\
 #	7a\
 #	7c\
 #	7l\

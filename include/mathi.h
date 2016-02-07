@@ -1,3 +1,6 @@
+
+#undef isnan
+
 /*
  * floating point control and status register masks
  */
